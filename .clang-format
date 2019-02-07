@@ -44,7 +44,7 @@ BreakConstructorInitializersBeforeComma: false
 BreakConstructorInitializers: AfterColon
 #BreakInheritanceList: AfterColon
 BreakStringLiterals: true
-ColumnLimit:     110
+ColumnLimit:     47
 CommentPragmas:  '^ IWYU pragma:'
 CompactNamespaces: false
 ConstructorInitializerAllOnOneLineOrOnePerLine: true

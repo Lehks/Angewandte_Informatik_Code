@@ -16,5 +16,5 @@ target_include_directories("opengl-example" PUBLIC "include")
 target_link_libraries("opengl-example" PRIVATE "glad")
 target_link_libraries("opengl-example" PRIVATE "glfw")
 
-configure_file("shader/example_shader.vs.glsl" "shader/example_shader.vs.glsl")
-configure_file("shader/example_shader.fs.glsl" "shader/example_shader.fs.glsl")
+configure_file("shader/example-shader.vs.glsl" "shader/example-shader.vs.glsl" COPYONLY)
+configure_file("shader/example-shader.fs.glsl" "shader/example-shader.fs.glsl" COPYONLY)
